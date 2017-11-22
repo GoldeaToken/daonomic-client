@@ -1,0 +1,6 @@
+@import '~/config/styles/media-queries.css';
+
+.twitter-container {
+    max-height: 1000px;
+    overflow-y: scroll;
+}

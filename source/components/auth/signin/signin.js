@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import Translation from '~/components/translation';
@@ -12,7 +12,7 @@ import Layout from '../layout';
 import commonStyles from '../common.css';
 import styles from './signin.css';
 
-export default class SignIn extends PureComponent {
+export default class SignIn extends Component {
   static propTypes = {
     password: PropTypes.string,
     email: PropTypes.string,

@@ -6,4 +6,6 @@
   --spoiler-half-vertical-padding-mobile: calc(var(--spoiler-vertical-padding-mobile) / 2);
   --spoiler-horizontal-padding: 30px;
   --spoiler-horizontal-padding-mobile: 20px;
+  --spoiler-horizontal-margin: 30px;
+  --spoiler-horizontal-margin-mobile: 20px;
 }

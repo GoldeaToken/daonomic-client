@@ -1,0 +1,20 @@
+@import '~/config/styles/media-queries.css';
+
+.list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.marker {
+  list-style-type: disc;
+}
+
+.paragraph {
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  @media (--desktop) {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}

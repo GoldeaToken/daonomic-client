@@ -16,9 +16,9 @@
 }
 
 .bar_background {
-  fill: rgba(192, 204, 217, .32);
+  fill: var(--color-meter-background);
 }
 
 .bar_foreground {
-  fill: var(--color-primary);
+  fill: var(--color-meter);
 }

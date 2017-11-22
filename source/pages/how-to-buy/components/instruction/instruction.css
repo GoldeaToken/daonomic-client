@@ -1,0 +1,15 @@
+@import '~/config/styles/media-queries.css';
+
+.paragraph {
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  @media (--desktop) {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+.image {
+    width: 100%;
+}

@@ -18,7 +18,7 @@
   padding-left: 21px;
   padding-bottom: 20px;
   list-style: none;
-  border-left: rgba(132, 146, 165, .24) 1px solid;
+  border-left: #ece5d1 1px solid;
 }
 
 .item:last-child {
@@ -34,7 +34,7 @@
   height: 19px;
   background-color: #fff;
   font-size: 0;
-  border: #c0ccd9 4px solid;
+  border: var(--color-lightbrown) 4px solid;
   border-radius: 100%;
 }
 
@@ -47,8 +47,8 @@
 }
 
 .badge_is-not-active {
-  background-color: rgba(192, 204, 217, .16);
-  color: var(--color-text-muted);
+  background-color: var(--color-lightbrown);
+  color: #fff;
 }
 
 .now {

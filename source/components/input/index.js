@@ -1,10 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import styles from './input.css';
 import Uncontrolled from './uncontrolled';
 
-export default class Input extends PureComponent {
+export default class Input extends Component {
   static Uncontrolled = Uncontrolled;
 
   static propTypes = {

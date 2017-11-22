@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, Redirect, Route } from 'react-router-dom';
 import { translate } from 'react-i18next';
+import { Switch, Redirect, Route } from 'react-router-dom';
 import PrivateRoute from '~/components/private-route';
 import pages from '~/pages';
 
@@ -50,8 +50,32 @@ export default class Routes extends Component {
 
               <Route
                 exact
-                path={pages.app.createWallet.getPath()}
-                component={pages.app.createWallet.component}
+                path={pages.app.dashboard.getPath()}
+                component={pages.app.dashboard.component}
+              />
+
+              <Route
+                exact
+                path={pages.app.twitterNews.getPath()}
+                component={pages.app.twitterNews.component}
+              />
+
+              <Route
+                exact
+                path={pages.app.timeline.getPath()}
+                component={pages.app.timeline.component}
+              />
+
+              <Route
+                exact
+                path={pages.app.howToBuy.getPath()}
+                component={pages.app.howToBuy.component}
+              />
+
+              <Route
+                exact
+                path={pages.app.bounty.getPath()}
+                component={pages.app.bounty.component}
               />
 
               <Route

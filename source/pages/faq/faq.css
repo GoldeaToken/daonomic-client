@@ -18,3 +18,21 @@
 .list {
   padding-bottom: 20px;
 }
+
+.container {
+  padding-right: var(--spoiler-horizontal-padding-mobile);
+
+  @media (--desktop) {
+    padding-right: var(--spoiler-horizontal-padding);
+  }
+}
+
+.preview {
+  margin-left: var(--spoiler-horizontal-margin-mobile);
+  margin-bottom: 20px;
+  width: 190px;
+
+  @media (--desktop) {
+    margin-left: var(--spoiler-horizontal-margin);
+  }
+}

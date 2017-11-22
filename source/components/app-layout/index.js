@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import Header from '~/components/header';
+import Banner from '~/components/banner';
 import Footer from '~/components/footer';
 import Page from '~/components/page';
 import styles from './app-layout.css';
@@ -20,6 +21,10 @@ export default class AppLayout extends PureComponent {
 
     return (
       <Page>
+        <div className={cn(styles.container, styles.banner)}>
+          <Banner />
+        </div>
+
         <Page.Header>
           <div className={cn(styles.container, styles.header)}>
             <Header />
