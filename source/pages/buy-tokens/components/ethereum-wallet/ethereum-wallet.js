@@ -5,6 +5,7 @@ import Translation from '~/components/translation';
 import Panel from '~/components/panel';
 import Heading from '~/components/heading';
 import Input from '~/components/input';
+import Link from '~/components/link';
 import Button from '~/components/button';
 import styles from './ethereum-wallet.css';
 
@@ -58,6 +59,10 @@ export default class EthereumWallet extends Component {
               tokenName: Translation.text('tokenName'),
             }}
           />
+          {' '}
+          <Link href="/app/how-to-buy">
+            How to create Ethereum wallet?
+          </Link>
         </p>
 
         <Heading

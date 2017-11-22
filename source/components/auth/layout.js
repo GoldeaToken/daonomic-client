@@ -1,11 +1,11 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import Page from '~/components/page';
 import Footer from '~/components/footer';
 import styles from './layout.css';
 
-export default class Layout extends PureComponent {
+export default class Layout extends Component {
   static propTypes = {
     children: PropTypes.node,
   };

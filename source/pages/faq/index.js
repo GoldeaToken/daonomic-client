@@ -1,28 +1,14 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import Translation from '~/components/translation';
 import Panel from '~/components/panel';
 import Heading from '~/components/heading';
 import Spoiler from '~/components/spoiler';
-import faqEntries from '~/config/faq';
+import { entries, documents } from '~/config/faq';
 import EmailUs from './components/email-us';
 import styles from './faq.css';
 
 export default class Faq extends PureComponent {
-  static propTypes = {
-    entries: PropTypes.arrayOf(PropTypes.shape({
-      question: PropTypes.string.isRequired,
-      answer: PropTypes.string.isRequired,
-    })),
-  };
-
-  static defaultProps = {
-    entries: faqEntries,
-  };
-
   render() {
-    const { entries } = this.props;
-
     return (
       <div>
         <Panel>
@@ -41,6 +27,14 @@ export default class Faq extends PureComponent {
               </Spoiler>
             ))}
           </div>
+
+          <section className={styles.container}>
+            {documents.map(({ url, previewUrl }) => (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                <img className={styles.preview} src={previewUrl} alt="document" />
+              </a>
+            ))}
+          </section>
         </Panel>
 
         <EmailUs />

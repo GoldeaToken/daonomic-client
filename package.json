@@ -23,7 +23,7 @@
   "pre-commit": [
     "qa"
   ],
-  "author": "Dev dev@0v1se.com",
+  "author": "Dev <dev@0v1se.com>",
   "license": "MIT",
   "devDependencies": {
     "@storybook/react": "3.2.14",

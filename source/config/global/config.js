@@ -1,65 +1,215 @@
 window.config = Object.assign(window.config || {}, {
-  sale: '0x99a09f0d85bc6e95e110348a8522f98443e31c4a',
+  sale: '0x3076d20cef23cf934fc6f857eb97e2baa63fc9fb',
   common: {
-    contactEmail: 'dev@0v1se.com',
-    termsOfServiceURL: 'terms.url',
+    contactEmail: 'support@goldea.io',
+    termsOfServiceURL: '',
   },
-  faq: [
-    {
-      question: 'What is the Hirematch Token',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-    {
-      question: 'How is HireMatch using blockchain technology',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-    {
-      question: 'How Can I invest?',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-    {
-      question: 'What do you already have?',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-    {
-      question: 'Why we should trust you?',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-    {
-      question: 'How collected funds will be used?',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-    {
-      question: 'How can I Aquire Hire Tokens?',
-      answer: 'The use of blockchain technology is reflected in our platform by two major elements: Job Posters (Companies and Recruiters) and Agents (Those who match, verify and submit talent). Blockchain technology, specifically the Smart Contract ensures that agreements between job posters and agents issued on our platform are unique, secure, automatic and transparent.',
-    },
-  ],
+  faq: {
+    entries: [
+      {
+        question: 'How is gold mining?',
+        answer: 'Environmentally friendly gravitational technique based on completely mobile plants.',
+      },
+      {
+        question: 'Do you have a JORC?',
+        answer: 'The JORC is used primarily by public listed large mining companies which are interested in huge hard rock gold deposits. We are small scale mining company like our gold mining licence states and our mining strategy doesn’t require JORC.',
+      },
+      {
+        question: 'In what way did geological exploration work?',
+        answer: 'As we are small scale mining company we did standard exploration works which confirmed 10 tons gold reserves and tested results in independent laboratories in Canada and Austria. All exploration works and its interpretation you can find in documents deposited in our personal cabinet.',
+      },
+      {
+        question: 'Inventory Counts?',
+        answer: '10 tons',
+      },
+      {
+        question: 'What will the technique be used for gold mining?',
+        answer: 'Environmentally friendly gravitational technique based on completely mobile plants.',
+      },
+      {
+        question: 'When will the plant be built?',
+        answer: '8 months after raised funds',
+      },
+      {
+        question: 'Is it possible to exchange a token for gold?',
+        answer: 'Yes if owner of tokens fills out KYC and take over all delivery costs.',
+      },
+      {
+        question: 'Earlier there was a return ransom, why was it removed?',
+        answer: 'Buy back will start 1 month after production starts with initially 10% of tokens in market',
+      },
+      {
+        question: 'Investors who invested in the Pre-ICO. Will there be a redemption for them?',
+        answer: 'Yes',
+      },
+      {
+        question: 'You had an agreement with the Swiss factory ... what now with him?',
+        answer: 'We have preliminary agreement . We are in process of incorporating GOLDEA company in Dubai and after incorporation will sign agreement with Swiss Bullion Company.  Gold is the only product in world for which you don’t need to look for buyer so there is zero risk and no worry. We have many buyers waiting for us.',
+      },
+      {
+        question: 'When will the 1.2.3.4 round? What date do you plan to complete the ICO?',
+        answer: '1st from 15 November, second from 15th December  till 15 January, third from 15 January till 15 February and fourth from 15 February till 15 March',
+      },
+      {
+        question: 'How much do you need to raise funds to start building a factory?',
+        answer: '1.000.000 USD',
+      },
+      {
+        question: 'What is Feasibility studio and what languages will be translated?',
+        answer: 'It is advanced version of business plan and for beggining will be on english and later will be translated',
+      },
+      {
+        question: 'Why ICO in 4 rounds?',
+        answer: 'In order to provide investors full transparency of funds usage and minimize all risks. Each cent will be justified with video content through our media contents.',
+      },
+      {
+        question: 'How long will the plant be built after the fundraising? It is desirable to have a time range with justification of the terms.',
+        answer: 'From 6-8 months after completion of fundraising. Detailed description you can find in Feasibility Study (Business Plan)',
+      },
+      {
+        question: 'How will the profit increase from extraction affect the price of the token?',
+        answer: 'We have limited amount of tokens and profit will grow unlimited. So token will grow as profit of company grows. We are tokenizing profit from gold production.',
+      },
+      {
+        question: 'Infrastructure - what you need to fail to start production?',
+        answer: 'Roads, camp facilities for workers and staff, security system, water tanks, electricity generator and installations, parking.',
+      },
+    ],
+    documents: [
+      {
+        url: '',
+        previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      },
+      {
+        url: '',
+        previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      },
+      {
+        url: '',
+        previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      },
+      {
+        url: '',
+        previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      },
+    ],
+  },
   saleTimeline: [
     {
-      title: 'Sale Timeline:',
+      title: '15.11.2017 (Базовая цена 12$):',
       steps: [
         {
-          date: '21 Jul',
-          text: '1 Token Coin = 30 BTC',
-          percent: '30%',
-          isActive: false,
-        },
-        {
-          date: '21 Aug',
-          text: '1 Token Coin = 40 BTC',
-          percent: '20%',
-          isActive: false,
-        },
-        {
-          date: '21 Sep',
-          text: '1 Token Coin = 50 BTC',
-          percent: '10%',
+          date: '5.11.2017 – 21.11.2017',
+          text: 'Первая неделя скидка',
+          percent: '15%',
           isActive: true,
         },
         {
-          date: '21 Oct',
-          text: '1 Token Coin = 40 BTC',
+          date: '22.11.2017 – 28.11.2017',
+          text: 'Вторая неделя скидка',
+          percent: '10%',
+          isActive: false,
+        },
+        {
+          date: '29.11.2017 – 05.12.2017',
+          text: 'Третья неделя скидка',
           percent: '5%',
+          isActive: false,
+        },
+        {
+          date: '06.12.2017 – 14.12.2017',
+          text: 'Четвертая неделя скидка',
+          percent: '0%',
+          isActive: false,
+        },
+      ],
+    },
+
+    {
+      title: '15.12.2017 (Базовая цена 15$):',
+      steps: [
+        {
+          date: '15.12.2017 – 21.12.2017',
+          text: 'Первая неделя скидка',
+          percent: '15%',
+          isActive: false,
+        },
+        {
+          date: '22.12.2017 – 28.12.2017',
+          text: 'Вторая неделя скидка',
+          percent: '10%',
+          isActive: false,
+        },
+        {
+          date: '29.12.2017 – 04.01.2018',
+          text: 'Третья неделя скидка',
+          percent: '5%',
+          isActive: false,
+        },
+        {
+          date: '05.01.2018 – 14.01.2018',
+          text: 'Четвертая неделя скидка',
+          percent: '0%',
+          isActive: false,
+        },
+      ],
+    },
+
+    {
+      title: '15.01.2018 (Базовая цена 18$):',
+      steps: [
+        {
+          date: '15.01.2018 – 21.01.2018',
+          text: 'Первая неделя скидка',
+          percent: '15%',
+          isActive: false,
+        },
+        {
+          date: '22.01.2018 – 28.01.2018',
+          text: 'Вторая неделя скидка',
+          percent: '10%',
+          isActive: false,
+        },
+        {
+          date: '29.01.2018 – 05.02.2018',
+          text: 'Третья неделя скидка',
+          percent: '5%',
+          isActive: false,
+        },
+        {
+          date: '06.02.2018 – 14.02.2018',
+          text: 'Четвертая неделя скидка',
+          percent: '0%',
+          isActive: false,
+        },
+      ],
+    },
+
+    {
+      title: '15.02.2018 (Базовая цена 21$):',
+      steps: [
+        {
+          date: '15.02.2018 – 21.02.2018',
+          text: 'Первая неделя скидка',
+          percent: '15%',
+          isActive: false,
+        },
+        {
+          date: '22.02.2018 – 28.02.2018',
+          text: 'Вторая неделя скидка',
+          percent: '10%',
+          isActive: false,
+        },
+        {
+          date: '01.03.2018 – 07.03.2018',
+          text: 'Третья неделя скидка',
+          percent: '5%',
+          isActive: false,
+        },
+        {
+          date: '08.03.2018 – 14.03.2018',
+          text: 'Четвертая неделя скидка',
+          percent: '0%',
           isActive: false,
         },
       ],
