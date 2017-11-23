@@ -5,7 +5,7 @@ export default class Banner extends Component {
   render() {
     return (
       <div className={styles.root}>
-          Here will be banner
+          &nbsp;
       </div>
     );
   }
