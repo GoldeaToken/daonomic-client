@@ -97,58 +97,28 @@ var faq = {
 
 var saleTimeline = [
   {
-    title: '15.11.2017 (Basic price 12$):',
+    title: '01.12.2017 (Basic price 12$):',
     steps: [
       {
-        date: '5.11.2017 – 21.11.2017',
+        date: '01.12.2017 – 07.12.2017',
         text: 'First week sale',
         percent: '15%',
         isActive: true,
       },
       {
-        date: '22.11.2017 – 28.11.2017',
+        date: '08.12.2017 – 14.12.2017',
         text: 'Second week sale',
         percent: '10%',
         isActive: false,
       },
-      {
-        date: '29.11.2017 – 05.12.2017',
-        text: 'Third week sale',
-        percent: '5%',
-        isActive: false,
-      },
-      {
-        date: '06.12.2017 – 14.12.2017',
-        text: 'Fourth week sale',
-        percent: '0%',
-        isActive: false,
-      },
-    ],
-  },
-
-  {
-    title: '15.12.2017 (Basic price 15$):',
-    steps: [
       {
         date: '15.12.2017 – 21.12.2017',
-        text: 'First week sale',
-        percent: '15%',
-        isActive: false,
-      },
-      {
-        date: '22.12.2017 – 28.12.2017',
-        text: 'Second week sale',
-        percent: '10%',
-        isActive: false,
-      },
-      {
-        date: '29.12.2017 – 04.01.2018',
         text: 'Third week sale',
         percent: '5%',
         isActive: false,
       },
       {
-        date: '05.01.2018 – 14.01.2018',
+        date: '22.12.2017 – 31.12.2017',
         text: 'Fourth week sale',
         percent: '0%',
         isActive: false,
@@ -157,28 +127,28 @@ var saleTimeline = [
   },
 
   {
-    title: '15.01.2018 (Basic price 18$):',
+    title: '01.01.2017 (Basic price 15$):',
     steps: [
+      {
+        date: '01.01.2018 – 07.01.2018',
+        text: 'First week sale',
+        percent: '15%',
+        isActive: false,
+      },
+      {
+        date: '08.01.2018 – 14.01.2018',
+        text: 'Second week sale',
+        percent: '10%',
+        isActive: false,
+      },
       {
         date: '15.01.2018 – 21.01.2018',
-        text: 'First week sale',
-        percent: '15%',
-        isActive: false,
-      },
-      {
-        date: '22.01.2018 – 28.01.2018',
-        text: 'Second week sale',
-        percent: '10%',
-        isActive: false,
-      },
-      {
-        date: '29.01.2018 – 05.02.2018',
         text: 'Third week sale',
         percent: '5%',
         isActive: false,
       },
       {
-        date: '06.02.2018 – 14.02.2018',
+        date: '22.01.2018 – 31.01.2018',
         text: 'Fourth week sale',
         percent: '0%',
         isActive: false,
@@ -187,28 +157,58 @@ var saleTimeline = [
   },
 
   {
-    title: '15.02.2018 (Basic price 21$):',
+    title: '01.02.2018 (Basic price 18$):',
     steps: [
       {
-        date: '15.02.2018 – 21.02.2018',
+        date: '01.02.2018 – 07.02.2018',
         text: 'First week sale',
         percent: '15%',
+        isActive: false,
+      },
+      {
+        date: '08.02.2018 – 14.02.2018',
+        text: 'Second week sale',
+        percent: '10%',
+        isActive: false,
+      },
+      {
+        date: '15.02.2018 – 21.02.2018',
+        text: 'Third week sale',
+        percent: '5%',
         isActive: false,
       },
       {
         date: '22.02.2018 – 28.02.2018',
+        text: 'Fourth week sale',
+        percent: '0%',
+        isActive: false,
+      },
+    ],
+  },
+
+  {
+    title: '01.03.2018 (Basic price 21$):',
+    steps: [
+      {
+        date: '01.03.2018 – 07.03.2018',
+        text: 'First week sale',
+        percent: '15%',
+        isActive: false,
+      },
+      {
+        date: '08.03.2018 – 14.03.2018',
         text: 'Second week sale',
         percent: '10%',
         isActive: false,
       },
       {
-        date: '01.03.2018 – 07.03.2018',
+        date: '15.03.2018 – 21.03.2018',
         text: 'Third week sale',
         percent: '5%',
         isActive: false,
       },
       {
-        date: '08.03.2018 – 14.03.2018',
+        date: '22.03.2018 – 31.03.2018',
         text: 'Fourth week sale',
         percent: '0%',
         isActive: false,
