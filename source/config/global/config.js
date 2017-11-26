@@ -97,7 +97,7 @@ var faq = {
 
 var saleTimeline = [
   {
-    title: '01.12.2017 (Basic price 12$):',
+    title: '01.12.2017 (Basic price $12):',
     steps: [
       {
         date: '01.12.2017 – 07.12.2017',
@@ -127,7 +127,7 @@ var saleTimeline = [
   },
 
   {
-    title: '01.01.2017 (Basic price 15$):',
+    title: '01.01.2017 (Basic price $15):',
     steps: [
       {
         date: '01.01.2018 – 07.01.2018',
@@ -157,7 +157,7 @@ var saleTimeline = [
   },
 
   {
-    title: '01.02.2018 (Basic price 18$):',
+    title: '01.02.2018 (Basic price $18):',
     steps: [
       {
         date: '01.02.2018 – 07.02.2018',
@@ -187,7 +187,7 @@ var saleTimeline = [
   },
 
   {
-    title: '01.03.2018 (Basic price 21$):',
+    title: '01.03.2018 (Basic price $21):',
     steps: [
       {
         date: '01.03.2018 – 07.03.2018',

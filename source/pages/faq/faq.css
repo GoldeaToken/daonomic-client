@@ -21,6 +21,7 @@
 
 .container {
   padding-right: var(--spoiler-horizontal-padding-mobile);
+  display: none;
 
   @media (--desktop) {
     padding-right: var(--spoiler-horizontal-padding);

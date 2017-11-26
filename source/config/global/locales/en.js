@@ -91,7 +91,7 @@ window.config.locales.en = {
     loginToWallet: 'Go to the Send Ether &amp; Tokens tab, and login to the wallet using the Keystore file and password. Also, you can use a private key for your login.',
     purseIsCreated: 'Congratulations, the purse is created! After you fund your Ethereum wallet, you can buy a link to the article on how to replenish the purse of the GEA tokens.',
     smartContract: 'To participate in the sale of GEA tokens, you should send the ETH to the address of the GOLDEA smart contract.',
-    address: 'Address: 0x00fa44d91d7541d16dd18a48dd6a011de5e887df',
+    address: 'Address: 0x3076d20cef23cf934fc6f857eb97e2baa63fc9fb',
     gasLimit: 'Gas Limit:',
     rechargeWallet: 'How to recharge the Ethereum wallet:',
     replenishPurse: 'The easiest way to replenish the purse with Ether, if you already have some kind of cryptocurrency is to transfer it from the exchange, or use the service shapeshift.io',
