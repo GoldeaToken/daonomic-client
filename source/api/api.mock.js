@@ -178,4 +178,18 @@ export default {
     })(),
     fail: createFailResponse,
   }),
+  events: {
+    logLogin: createMockRoute({
+      success: createResponse,
+      fail: createFailResponse,
+    }),
+    logRegistration: createMockRoute({
+      success: createResponse,
+      fail: createFailResponse,
+    }),
+    logWalletSave: createMockRoute({
+      success: createResponse,
+      fail: createFailResponse,
+    }),
+  },
 };

@@ -66,6 +66,9 @@ export class AuthStore {
           this.token = data.token;
           this.email = email;
         });
+
+        this.api.events.logLogin({ email });
+
         return { success: true };
       })
       .catch(({ response }) => {
@@ -96,6 +99,8 @@ export class AuthStore {
           this.isLoading = false;
           this.isRegistered = true;
         });
+
+        this.api.events.logRegistration({ email });
       })
       .catch(({ response }) => {
         const fieldErrors = response && response.data && response.data.fieldErrors;
