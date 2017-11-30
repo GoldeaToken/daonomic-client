@@ -30,7 +30,8 @@ export default class Bounty extends Component {
       <TwoColumnsLayout>
         <TwoColumnsLayout.Left>
           <Panel paddingSize={Panel.paddingSizes.large}>
-            <iframe title="bounty" className={styles.frame} src={`https://api.goldea.team/api/v1/bounty?email=${email}&wallet=${address}&token=we1`} frameBorder="0" />
+//            <iframe title="bounty" className={styles.frame} src={`https://api.goldea.team/api/v1/bounty`} frameBorder="0" />
+            <iframe title="bounty" className={styles.frame} src={`https://api.goldea.team/api/v1/bounty-v2?email=${email}&wallet=${address}&token=732FFc82`} frameBorder="0" />
           </Panel>
         </TwoColumnsLayout.Left>
 
