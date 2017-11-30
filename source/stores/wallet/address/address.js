@@ -78,6 +78,11 @@ export class WalletAddressStore {
         runInAction(() => {
           this.dataState = dataStates.loaded;
         });
+
+        this.api.events.logWalletSave({
+          walletId: this.address,
+          email: this.auth.email,
+        });
       })
       .catch(({ response }) => {
         runInAction(() => {
