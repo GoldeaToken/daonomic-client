@@ -26,7 +26,7 @@ storiesOf('Navigation', module)
       </Navigation.Item>
 
       <Navigation.Item href="#buy">
-        Buy tokens
+        Buy Tokens
       </Navigation.Item>
 
       <Navigation.Item isActive href="#history">

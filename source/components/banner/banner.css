@@ -1,10 +1,27 @@
 @import '~/config/styles/colors.css';
+@import '~/config/styles/media-queries';
 
 .root {
-    /*height: 120px;*/
-    height: 0px;
+    height: 120px;
+   /* height: 0px; */
     overflow: hidden;
     background: #ececec;
+}
+
+.phone {
+    display: none;
+    @media (--phone) {
+        display: block;
+    }
+
+}
+
+.other {
+    display: block;
+    @media (--phone) {
+        display: none;
+    }
+
 }
 
 .container {

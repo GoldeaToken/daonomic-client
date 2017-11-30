@@ -283,7 +283,7 @@ var texts = {
   },
   widgets: {
     yourWalletBalance: "Your Wallet Balance",
-    tokenPrice: "Token Price",
+    tokenPrice: "GEA Token Value",
     tokensSold: "Tokens Sold",
     cantFindWhatLookingFor: "Can’t find what are you looking for?",
     emailUs: "Email Us"

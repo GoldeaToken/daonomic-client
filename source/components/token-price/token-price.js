@@ -88,7 +88,7 @@ export default class TokenPrice extends Component {
         </h3>
 
         <Button onClick={this.handleClickSwitch} className={styles.fullwidth}>
-          Buy tokens
+          Buy Tokens
         </Button>
       </div>
     );
