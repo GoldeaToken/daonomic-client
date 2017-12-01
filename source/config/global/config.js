@@ -77,20 +77,19 @@ var faq = {
   ],
   documents: [
     {
-      url: '',
-      previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      url: '//goldea.io/docs/goldea/actual/license/Goldea-Mine-License-en.pdf',
+      previewUrl: '//goldea.io/themes/goldea/assets/img/license_preview_pdf.png',
+      title: 'License'
     },
     {
-      url: '',
-      previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      url: '//goldea.io/docs/goldea/actual/license/Goldea-Mine-License-fr.pdf',
+      previewUrl: '//goldea.io/themes/goldea/assets/img/license_preview_pdf.png',
+      title: 'Licence'
     },
     {
-      url: '',
-      previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
-    },
-    {
-      url: '',
-      previewUrl: 'http://urhelp.guru/images/27579/dokumenty-na-prava-sobstvennosti.jpg',
+      url: '//goldea.io/docs/goldea/actual/license/Goldea-Mine-License-ru.pdf',
+      previewUrl: '//goldea.io/themes/goldea/assets/img/license_preview_pdf.png',
+      title: 'Лицензия'
     },
   ],
 };

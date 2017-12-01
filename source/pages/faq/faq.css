@@ -21,12 +21,24 @@
 
 .container {
   padding-right: var(--spoiler-horizontal-padding-mobile);
-  display: none;
+
 
   @media (--desktop) {
     padding-right: var(--spoiler-horizontal-padding);
   }
 }
+
+.license {
+    display: inline-block;
+    position: relative;
+}
+
+.title {
+}
+
+.pic {
+}
+
 
 .preview {
   margin-left: var(--spoiler-horizontal-margin-mobile);

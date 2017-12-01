@@ -70,11 +70,15 @@ export default class Instruction extends PureComponent {
         </p>
 
         <p className={styles.paragraph}>
-          <Translation id="instruction:address" />
+          <span className={styles.warning}><Translation id="instruction:address" /></span>
         </p>
 
         <p className={styles.paragraph}>
-          <Translation id="instruction:gasLimit" /> 150000
+          <span className={styles.warning}><Translation id="instruction:gasLimit" /> 150000 Gwei</span>
+        </p>
+
+        <p className={styles.paragraph}>
+          <span className={styles.warning}><Translation id="instruction:gasPrice" /> 31 Gwei</span>
         </p>
 
         <p className={styles.paragraph}>

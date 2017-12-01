@@ -45,7 +45,7 @@ window.config.locales.en = {
     statusFinished: 'finished',
     statusPending: 'pending',
     instructionTitle: 'Payment Instruction',
-    instructionText: 'After your payment will be completed you will get tokens to the selected ethereum address:',
+    instructionText: '<strong>SET GAS PRICE: 50</strong><br/><strong>GAS LIMIT: 150 000</strong><br/>After your payment will be completed you will get tokens to the selected ethereum address:',
   },
 
   wallet: {
@@ -93,6 +93,7 @@ window.config.locales.en = {
     smartContract: 'To participate in the sale of GEA tokens, you should send the ETH to the address of the GOLDEA smart contract.',
     address: 'Address: 0x3076d20cef23cf934fc6f857eb97e2baa63fc9fb',
     gasLimit: 'Gas Limit:',
+    gasPrice: 'Gas Price:',
     rechargeWallet: 'How to recharge the Ethereum wallet:',
     replenishPurse: 'The easiest way to replenish the purse with Ether, if you already have some kind of cryptocurrency is to transfer it from the exchange, or use the service shapeshift.io',
     fiatMoney: 'If you have the fiat money only, then you can use the services of exchangers:',

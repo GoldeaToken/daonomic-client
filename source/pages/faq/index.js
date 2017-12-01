@@ -29,9 +29,12 @@ export default class Faq extends PureComponent {
           </div>
 
           <section className={styles.container}>
-            {documents.map(({ url, previewUrl }) => (
-              <a href={url} target="_blank" rel="noopener noreferrer">
-                <img className={styles.preview} src={previewUrl} alt="document" />
+            {documents.map(({ url, previewUrl, title }) => (
+              <a className={styles.license} href={url} title={title} target="_blank" rel="noopener noreferrer">
+                <div className={styles.title}>{ title }</div>
+                <div className={styles.pic}>
+                  <img className={styles.preview} src={previewUrl} alt="document" />
+                </div>
               </a>
             ))}
           </section>
