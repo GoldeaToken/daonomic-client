@@ -10,6 +10,11 @@
   }
 }
 
+.warning {
+    color: #f74747;
+    font-weight: bold;
+}
+
 .image {
     width: 100%;
 }
