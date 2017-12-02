@@ -7,72 +7,64 @@ var common = {
 var faq = {
   entries: [
     {
-      question: 'How is gold mining?',
-      answer: 'Environmentally friendly gravitational technique based on completely mobile plants.',
+      question: 'How do you mine your gold?',
+      answer: 'We use environmentally friendly gravitational technique based on completely mobile production modules.',
     },
     {
       question: 'Do you have a JORC?',
-      answer: 'The JORC is used primarily by public listed large mining companies which are interested in huge hard rock gold deposits. We are small scale mining company like our gold mining licence states and our mining strategy doesn’t require JORC.',
+      answer: 'JORC is used primarily by large public mining companies which are interested in huge stone gold-ore deposits. We are small scale mining company according to our gold mining licence and our mining strategy doesn’t require JORC.',
     },
     {
       question: 'In what way did geological exploration work?',
       answer: 'As we are small scale mining company we did standard exploration works which confirmed 10 tons gold reserves and tested results in independent laboratories in Canada and Austria. All exploration works and its interpretation you can find in documents deposited in our personal cabinet.',
     },
     {
-      question: 'Inventory Counts?',
-      answer: '10 tons',
-    },
-    {
-      question: 'What will the technique be used for gold mining?',
-      answer: 'Environmentally friendly gravitational technique based on completely mobile plants.',
+      question: 'How much gold do you await to exploit at this site?',
+      answer: 'The site capacity is estimated to be more then 10 tonnes of gold',
     },
     {
       question: 'When will the plant be built?',
-      answer: '8 months after raised funds',
+      answer: 'In 8 months after funds have been raised',
     },
     {
       question: 'Is it possible to exchange a token for gold?',
-      answer: 'Yes if owner of tokens fills out KYC and take over all delivery costs.',
+      answer: 'Yes, if the owner of tokens fills out KYC and accepts all delivery costs.',
     },
     {
       question: 'Earlier there was a return ransom, why was it removed?',
-      answer: 'Buy back will start 1 month after production starts with initially 10% of tokens in market',
+      answer: 'Buy back will start 1 month after production starts with initially 10% of tokens in market.',
     },
     {
-      question: 'Investors who invested in the Pre-ICO. Will there be a redemption for them?',
+      question: 'Investors who invested in the Pre-ICO, will there be a redemption for them?',
       answer: 'Yes',
     },
     {
-      question: 'You had an agreement with the Swiss factory ... what now with him?',
-      answer: 'We have preliminary agreement . We are in process of incorporating GOLDEA company in Dubai and after incorporation will sign agreement with Swiss Bullion Company.  Gold is the only product in world for which you don’t need to look for buyer so there is zero risk and no worry. We have many buyers waiting for us.',
+      question: 'You had an agreement with the Swiss factory ... and what now?',
+      answer: 'We have preliminary agreement with. We have incorporated GOLDEA company at Dubai and now proceed with confirmation of agreement with Swiss Bullion Company.  Gold is the only product around the world for which you don’t need to look for buyer, so there is zero risk and no worry. We have many buyers waiting for us.',
     },
     {
-      question: 'When will the 1.2.3.4 round? What date do you plan to complete the ICO?',
-      answer: '1st from 15 November, second from 15th December  till 15 January, third from 15 January till 15 February and fourth from 15 February till 15 March',
-    },
-    {
-      question: 'How much do you need to raise funds to start building a factory?',
+      question: 'How much funds do you need to raise in order to begin a factory construction?',
       answer: '1.000.000 USD',
     },
     {
-      question: 'What is Feasibility studio and what languages will be translated?',
-      answer: 'It is advanced version of business plan and for beggining will be on english and later will be translated',
+      question: 'What is a "Feasibility study" and in which languages will it be translated?',
+      answer: 'That is an advanced version of business plan and to begin with we will be posting papers only in english. They can be translated upon request',
     },
     {
-      question: 'Why ICO in 4 rounds?',
-      answer: 'In order to provide investors full transparency of funds usage and minimize all risks. Each cent will be justified with video content through our media contents.',
+      question: 'Why ICO is sheduled in 4 rounds?',
+      answer: 'In order to provide full transparency for investors regarding the funds\' usage and risk mitigation. Each cent will be justified with video content through our official media.',
     },
     {
-      question: 'How long will the plant be built after the fundraising? It is desirable to have a time range with justification of the terms.',
-      answer: 'From 6-8 months after completion of fundraising. Detailed description you can find in Feasibility Study (Business Plan)',
+      question: 'How long will the plant construction take after the fundraising? It is desirable to have a time range with justification of the terms.',
+      answer: 'From 6 to 8 months after completion of fundraising. Detailed description you can find in Feasibility Study (Business Plan). Also please refer to our road map and project plan!',
     },
     {
-      question: 'How will the profit increase from extraction affect the price of the token?',
-      answer: 'We have limited amount of tokens and profit will grow unlimited. So token will grow as profit of company grows. We are tokenizing profit from gold production.',
+      question: 'How will the profit from revenues affect the price of the token?',
+      answer: 'We have limited amount of tokens and profit will grow unlimited. So tokens will grow as profit of company grows. We are tokenizing profit from gold production.',
     },
     {
-      question: 'Infrastructure - what you need to fail to start production?',
-      answer: 'Roads, camp facilities for workers and staff, security system, water tanks, electricity generator and installations, parking.',
+      question: 'Infrastructure - what you need to fulfill to start production?',
+      answer: 'Please, refer to our road map and project plan for details. They are located in the middle of our main page and include roads, camp facilities for workers and staff, security system, water tanks, electricity generator and installations, parking.',
     },
   ],
   documents: [
@@ -126,7 +118,7 @@ var saleTimeline = [
   },
 
   {
-    title: '01.01.2017 (Basic price $15):',
+    title: '01.01.2018 (Basic price $15):',
     steps: [
       {
         date: '01.01.2018 – 07.01.2018',

@@ -10,7 +10,7 @@ const daoxApi = axios.create({
   baseURL: `https://${apiSubDomain}.daox.io/v1`,
 });
 const goldeaApi = axios.create({
-  baseURL: 'https://api.goldea.team/api/v1',
+  baseURL: 'https://investor.goldea.io/api/v1',
 });
 
 const getDefaultOptions = () => ({
