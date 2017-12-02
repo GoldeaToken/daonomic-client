@@ -69,7 +69,7 @@ window.config.locales.en = {
   news: {
     title: 'News',
     currentStatus: 'Current status: ICO stage 1',
-    fundsRaised: 'Funds raised: 325ETH 529BTC',
+    fundsRaised: 'Funds raised: 300ETH 25BTC',
     projectStatus: 'Project status:',
     goldMinePlantOrdering: 'Gold Mine Plant Ordering',
     infrastructureSetup: 'Infrastructure Setup',

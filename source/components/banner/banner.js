@@ -6,8 +6,8 @@ export default class Banner extends Component {
     return (
       <div className={styles.root}>
         <a href="/app/buy" >
-          <img src="//goldea.io/storage/app/media/banners/banner-001-sm.png" className={styles.phone} />
-          <img src="//goldea.io/storage/app/media/banners/banner-001-full.png" className={styles.other} />
+          <img src="//goldea.io/storage/app/media/banners/banner-001-sm.gif" className={styles.phone} />
+          <img src="//goldea.io/storage/app/media/banners/banner-001-full.gif" className={styles.other} />
         </a>
       </div>
     );
