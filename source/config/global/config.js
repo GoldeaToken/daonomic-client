@@ -94,13 +94,13 @@ var saleTimeline = [
         date: '01.12.2017 – 07.12.2017',
         text: 'First week sale',
         percent: '15%',
-        isActive: true,
+        isActive: false,
       },
       {
         date: '08.12.2017 – 14.12.2017',
         text: 'Second week sale',
         percent: '10%',
-        isActive: false,
+        isActive: true,
       },
       {
         date: '15.12.2017 – 21.12.2017',

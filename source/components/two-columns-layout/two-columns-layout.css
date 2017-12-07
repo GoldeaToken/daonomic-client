@@ -21,5 +21,6 @@
 .right {
   @media (--desktop) {
     flex: 1 1 32.05128205%;
+    max-width: var(--size-phone-max);
   }
 }
