@@ -1,33 +1,28 @@
-@import '~/config/styles/colors.css';
-@import '~/config/styles/media-queries';
-
 .root {
-    height: 120px;
-   /* height: 0px; */
-    overflow: hidden;
-    background: #725230;
-    text-align: center;
+  height: 120px;
+  overflow: hidden;
+  background: #725230;
+  text-align: center;
 }
 
 .holder {
-    display: inline-block;
+  display: inline-block;
 }
 
-
 .phone {
-    display: none;
-    @media (--phone) {
-        display: block;
-    }
+  display: none;
 
+  @media (--phone) {
+    display: block;
+  }
 }
 
 .other {
-    display: block;
-    @media (--phone) {
-        display: none;
-    }
+  display: block;
 
+  @media (--phone) {
+    display: none;
+  }
 }
 
 .container {
