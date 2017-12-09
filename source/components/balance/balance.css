@@ -1,10 +1,7 @@
-@import '~/config/styles/colors.css';
-
 .root {
-  color: #fff;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--theme-primary);
   background-color: #ffffff;
-  color: var(--color-primary);
+  color: var(--theme-primary);
 }
 
 .title {

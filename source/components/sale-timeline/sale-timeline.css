@@ -1,5 +1,3 @@
-@import '~/config/styles/colors.css';
-
 .title {
   padding-bottom: 12px;
   font-weight: 600;
@@ -10,7 +8,7 @@
   padding-left: 8px;
   font-size: 14px;
   line-height: 1;
-  color: var(--color-text-muted);
+  color: var(--theme-muted);
 }
 
 .item {
@@ -34,25 +32,25 @@
   height: 19px;
   background-color: #fff;
   font-size: 0;
-  border: var(--color-lightbrown) 4px solid;
+  border: var(--theme-primary-light) 4px solid;
   border-radius: 100%;
 }
 
-.item_is-active {
+.item_active {
   color: #000;
 }
 
-.item_is-active::before {
-  border-color: var(--color-primary);
+.item_active::before {
+  border-color: var(--theme-primary);
 }
 
-.badge_is-not-active {
-  background-color: var(--color-lightbrown);
-  color: #fff;
+.badge_inactive {
+  background-color: var(--theme-primary-light);
+  color: var(--theme-primary-opposite);
 }
 
 .now {
-  color: var(--color-primary);
+  color: var(--theme-primary);
 }
 
 .row {
