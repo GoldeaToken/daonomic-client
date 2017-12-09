@@ -72,9 +72,11 @@ export default class EthereumWallet extends Component {
           <Translation id="wallet:noticeTitle" />
         </Heading>
 
-        <p className={styles.paragraph}>
-          <Translation id="wallet:noticeText" />
-        </p>
+        <div className={styles.paragraph}>
+          <p><Translation id="wallet:noticeText" /></p>
+          <p><strong><Translation id="wallet:noticeGasLimit" /></strong></p>
+          <p><strong><Translation id="wallet:noticeGasPrice" /></strong></p>
+        </div>
 
         <Input
           label={Translation.text('wallet:ethereumAddress')}
