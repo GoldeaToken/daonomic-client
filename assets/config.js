@@ -72,17 +72,17 @@ window.config = Object.assign(window.config || {}, {
       {
         url: '//goldea.io/docs/goldea/actual/license/Goldea-Mine-License-en.pdf',
         previewUrl: '//goldea.io/themes/goldea/assets/img/license_preview_pdf.png',
-        title: 'License'
+        title: 'License',
       },
       {
         url: '//goldea.io/docs/goldea/actual/license/Goldea-Mine-License-fr.pdf',
         previewUrl: '//goldea.io/themes/goldea/assets/img/license_preview_pdf.png',
-        title: 'Licence'
+        title: 'Licence',
       },
       {
         url: '//goldea.io/docs/goldea/actual/license/Goldea-Mine-License-ru.pdf',
         previewUrl: '//goldea.io/themes/goldea/assets/img/license_preview_pdf.png',
-        title: 'Лицензия'
+        title: 'Лицензия',
       },
     ],
   },

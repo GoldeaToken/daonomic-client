@@ -9,6 +9,7 @@ import Meter from 'daonomic-ui/source/meter';
 import Button from 'daonomic-ui/source/button';
 import Translation from '~/components/translation';
 import textStyles from '~/components/text/text.css';
+import formatNumber from '~/i18n/format-number';
 import styles from './token-price.css';
 
 @inject(({ payment }) => ({
@@ -53,10 +54,10 @@ export default class TokenPrice extends Component {
         <Meter value={(tokensCount.sold / tokensCount.total) || 0} />
 
         <p className={styles.sold}>
-          {tokensCount.sold} <Translation id="tokenName" />
+          {formatNumber(tokensCount.sold)} <Translation id="tokenName" />
           {' '}
           <span className={textStyles.muted}>
-            of {tokensCount.total}
+            of {formatNumber(tokensCount.total)}
           </span>
         </p>
       </div>
@@ -78,7 +79,7 @@ export default class TokenPrice extends Component {
 
         {prices.map(({ rate, label }) => (
           <p key={label}>
-            1{label} = {rate} <Translation id="tokenName" />
+            1{label} = {formatNumber(rate)} <Translation id="tokenName" />
           </p>
         ))}
 
