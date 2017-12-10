@@ -84,6 +84,12 @@ export default class Routes extends Component {
                 component={pages.app.faq.component}
               />
 
+              <Route
+                exact
+                path={pages.app.createWallet.getPath()}
+                component={pages.app.createWallet.component}
+              />
+
               <Redirect
                 to={pages.app.buyTokens.getPath()}
               />
