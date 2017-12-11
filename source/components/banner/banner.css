@@ -12,7 +12,7 @@
 .phone {
   display: none;
 
-  @media (--phone) {
+  @media (--phone-lg) {
     display: block;
   }
 }
@@ -20,7 +20,7 @@
 .other {
   display: block;
 
-  @media (--phone) {
+  @media (--phone-lg) {
     display: none;
   }
 }

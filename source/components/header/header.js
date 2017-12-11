@@ -62,7 +62,7 @@ export default class Header extends Component {
 
     return (
       <Navigation>
-        {[pages.app.buyTokens, pages.app.howToBuy, pages.app.createWallet, pages.app.faq, pages.app.timeline, pages.app.twitterNews, pages.app.bounty, pages.app.telegram].map((page) => (
+        {[pages.app.buyTokens, pages.app.howToBuy, pages.app.createWallet, pages.app.faq, pages.app.timeline, pages.app.twitterNews, pages.app.bounty, pages.app.referal, pages.app.telegram].map((page) => (
           <Navigation.Item
             key={page.getPath()}
             isActive={page.getPath() === currentPagePath}

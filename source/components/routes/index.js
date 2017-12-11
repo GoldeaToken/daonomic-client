@@ -74,6 +74,12 @@ export default class Routes extends Component {
 
               <Route
                 exact
+                path={pages.app.referal.getPath()}
+                component={pages.app.referal.component}
+              />
+
+              <Route
+                exact
                 path={pages.app.bounty.getPath()}
                 component={pages.app.bounty.component}
               />

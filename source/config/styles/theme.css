@@ -1,6 +1,7 @@
 @import "daonomic-ui/source/theme.css";
 
 @custom-media --phone (max-width: 320px);
+@custom-media --phone-lg (max-width: 480px);
 
 :root {
   --theme-primary: #6d5233;

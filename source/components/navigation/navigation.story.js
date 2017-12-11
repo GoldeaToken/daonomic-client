@@ -5,8 +5,8 @@ import Navigation from './';
 storiesOf('Navigation', module)
   .add('default', () => (
     <Navigation>
-      <Navigation.Item href="#telegram">
-        Telegram
+      <Navigation.Item href="#referal">
+        Referal
       </Navigation.Item>
 
       <Navigation.Item href="#news">
@@ -19,6 +19,10 @@ storiesOf('Navigation', module)
 
       <Navigation.Item href="#how-to-buy">
         How To Buy
+      </Navigation.Item>
+
+      <Navigation.Item href="#telegram">
+        Telegram
       </Navigation.Item>
 
       <Navigation.Item href="#bounty">

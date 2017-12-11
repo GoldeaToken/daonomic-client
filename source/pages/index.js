@@ -3,6 +3,7 @@ import SignUp from '~/pages/sign-up';
 import ResetPassword from '~/pages/reset-password';
 import CreateNewPassword from '~/pages/create-new-password';
 import Telegram from '~/pages/telegram-chat';
+import Referal from '~/pages/referal-program';
 import TwitterNews from '~/pages/twitter-news';
 import Timeline from '~/pages/timeline';
 import HowToBuy from '~/pages/how-to-buy';
@@ -43,6 +44,12 @@ export default {
       getPath: () => `${appPrefix}/telegram`,
       title: 'Telegram Chat',
       component: Telegram,
+    },
+
+    referal: {
+      getPath: () => `${appPrefix}/referal`,
+      title: 'Referal Program',
+      component: Referal,
     },
 
     twitterNews: {
