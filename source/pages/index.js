@@ -41,7 +41,7 @@ export default {
 
     telegram: {
       getPath: () => `${appPrefix}/telegram`,
-      title: 'Telegram',
+      title: 'Telegram Chat',
       component: Telegram,
     },
 
