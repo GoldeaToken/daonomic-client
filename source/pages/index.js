@@ -2,7 +2,7 @@ import SignIn from '~/pages/sign-in';
 import SignUp from '~/pages/sign-up';
 import ResetPassword from '~/pages/reset-password';
 import CreateNewPassword from '~/pages/create-new-password';
-import Dashboard from '~/pages/dashboard';
+import Telegram from '~/pages/telegram-chat';
 import TwitterNews from '~/pages/twitter-news';
 import Timeline from '~/pages/timeline';
 import HowToBuy from '~/pages/how-to-buy';
@@ -39,10 +39,10 @@ export default {
     getPath: () => appPrefix,
     component: AppLayout,
 
-    dashboard: {
-      getPath: () => `${appPrefix}/dashboard`,
-      title: 'Dashboard',
-      component: Dashboard,
+    telegram: {
+      getPath: () => `${appPrefix}/telegram`,
+      title: 'Telegram',
+      component: Telegram,
     },
 
     twitterNews: {

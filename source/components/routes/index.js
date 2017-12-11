@@ -50,8 +50,8 @@ export default class Routes extends Component {
 
               <Route
                 exact
-                path={pages.app.dashboard.getPath()}
-                component={pages.app.dashboard.component}
+                path={pages.app.telegram.getPath()}
+                component={pages.app.telegram.component}
               />
 
               <Route

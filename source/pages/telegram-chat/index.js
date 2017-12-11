@@ -4,12 +4,12 @@ import Balance from '~/components/balance';
 import TokenPrice from '~/components/token-price';
 import News from './components/news';
 
-export default class Dashboard extends Component {
+export default class Telegram extends Component {
   render() {
     return (
       <TwoColumnsLayout>
         <TwoColumnsLayout.Left>
-          <News />
+          <iframe src="https://tgwidget.com/widget/?id=5a2d579883ba8868368b4567" frameborder="0" scrolling="no" horizontalscrolling="no" verticalscrolling="no" width="100%" height="800px" async></iframe>
         </TwoColumnsLayout.Left>
 
         <TwoColumnsLayout.Right>
