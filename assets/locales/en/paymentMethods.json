@@ -6,5 +6,5 @@
   "statusFinished": "finished",
   "statusPending": "pending",
   "instructionTitle": "Payment Instruction",
-  "instructionText": "<strong>SET GAS PRICE: 50</strong><br/><strong>GAS LIMIT: 150 000</strong><br/>After your payment will be completed you will get tokens to the selected ethereum address:"
+  "instructionText": "<strong>SET GAS PRICE: 50 Gwei (more than)</strong><br/><strong>GAS LIMIT: 150000 Gwei (more than)</strong><br/>After your payment will be completed you will get tokens to the selected ethereum address:"
 }

@@ -60,7 +60,7 @@ export default class EthereumWallet extends Component {
             }}
           />
           {' '}
-          <Link href="/app/how-to-buy">
+          <Link href="/app/create-wallet">
             How to create Ethereum wallet?
           </Link>
         </p>
@@ -73,9 +73,9 @@ export default class EthereumWallet extends Component {
         </Heading>
 
         <div className={styles.paragraph}>
-          <p><Translation id="wallet:noticeText" /></p>
-          <p><strong><Translation id="wallet:noticeGasLimit" /></strong></p>
-          <p><strong><Translation id="wallet:noticeGasPrice" /></strong></p>
+          <p className={styles.warning}><Translation id="wallet:noticeText" /></p>
+          <p className={styles.warning}><strong><Translation id="wallet:noticeGasLimit" /></strong></p>
+          <p className={styles.warning}><strong><Translation id="wallet:noticeGasPrice" /></strong></p>
         </div>
 
         <Input
