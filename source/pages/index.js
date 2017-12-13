@@ -48,7 +48,7 @@ export default {
 
     referal: {
       getPath: () => `${appPrefix}/referal`,
-      title: 'Referal Program',
+      title: 'Referral Program',
       component: Referal,
     },
 

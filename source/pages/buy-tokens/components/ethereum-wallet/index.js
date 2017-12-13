@@ -60,8 +60,9 @@ export default class EthereumWallet extends Component {
             }}
           />
           {' '}
-          <Link href="/app/create-wallet">
-            How to create Ethereum wallet?
+          <br/>
+          <Link href="/app/how-to-buy">
+            If you do not already have an Ethereum Wallet you may find information about this here.
           </Link>
         </p>
 

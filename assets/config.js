@@ -8,64 +8,64 @@ window.config = Object.assign(window.config || {}, {
   faq: {
     entries: [
       {
-        question: 'How do you mine your gold?',
-        answer: 'We use environmentally friendly gravitational technique based on completely mobile production modules.',
+        question: 'How do you excavate your gold',
+        answer: 'We use an environmentally friendly gravitational technique using scalable modular production.',
       },
       {
-        question: 'Do you have a JORC?',
-        answer: 'JORC is used primarily by large public mining companies which are interested in huge stone gold-ore deposits. We are small scale mining company according to our gold mining licence and our mining strategy doesn’t require JORC.',
+        question: 'Do you have a JORC (Joint Ore Reserves Committee)?',
+        answer: 'A JORC is used primarily by large public mining companies which are interested in large stone gold-ore deposits. We are a small scale mining company and according to our gold mining licence and our mining strategy we do not require a JORC.',
       },
       {
-        question: 'In what way did geological exploration work?',
-        answer: 'As we are small scale mining company we did standard exploration works which confirmed 10 tons gold reserves and tested results in independent laboratories in Canada and Austria. All exploration works and its interpretation you can find in documents deposited in our personal cabinet.',
+        question: 'In what way was Geological Exploration carried out?',
+        answer: 'As we are a small scale mining company we carried out standard exploration works which confirmed 10 tons of gold reserves these results where tested by independent laboratories in Canada and Austria. Results and analysis of all exploration works can be found in the documents in your Goldea Dashboard.',
       },
       {
-        question: 'How much gold do you await to exploit at this site?',
-        answer: 'The site capacity is estimated to be more then 10 tonnes of gold',
+        question: 'How much gold are you expecting to excavate at this site?',
+        answer: 'The site is estimated to contain more than 10 tonnes of gold.',
       },
       {
         question: 'When will the plant be built?',
-        answer: 'In 8 months after funds have been raised',
+        answer: '8 months after the required funds have been raised.',
       },
       {
-        question: 'Is it possible to exchange a token for gold?',
-        answer: 'Yes, if the owner of tokens fills out KYC and accepts all delivery costs.',
+        question: 'Is it possible to exchange a GEA Token for gold?',
+        answer: 'Yes. If the owner of the GEA Token fills out a KYC (Know Your Customer) form and accepts the cost of delivery.',
       },
       {
-        question: 'Earlier there was a return ransom, why was it removed?',
-        answer: 'Buy back will start 1 month after production starts with initially 10% of tokens in market.',
+        question: 'Earlier there was a buy-back options, why was it cancelled?',
+        answer: 'There will be the option to buy-back 10% of GEA tokens issued starting 1 month after production begins.',
       },
       {
-        question: 'Investors who invested in the Pre-ICO, will there be a redemption for them?',
-        answer: 'Yes',
+        question: 'Will there be a buy-back option for investors who participated in the pre-ICO phase?',
+        answer: 'Yes.',
       },
       {
-        question: 'You had an agreement with the Swiss factory ... and what now?',
-        answer: 'We have preliminary agreement with. We have incorporated GOLDEA company at Dubai and now proceed with confirmation of agreement with Swiss Bullion Company.  Gold is the only product around the world for which you don’t need to look for buyer, so there is zero risk and no worry. We have many buyers waiting for us.',
+        question: 'Do you have an agreement with a Bullion Company?',
+        answer: 'We have a preliminary agreement with a Swiss buyer for all of our excavated gold. GOLDEA has now been incorporated in Dubai, UAE and we are now proceeding with an agreement with a Swiss Bullion Company. Gold is the only product in the world for which you don’t need to look for a buyer, so there is zero-risk. There will always be buyers waiting for our gold.',
       },
       {
-        question: 'How much funds do you need to raise in order to begin a factory construction?',
-        answer: '1.000.000 USD',
+        question: 'What funds do you need to raise in order to begin plant construction?',
+        answer: '1,000,000 USD',
       },
       {
-        question: 'What is a "Feasibility study" and in which languages will it be translated?',
-        answer: 'That is an advanced version of business plan and to begin with we will be posting papers only in english. They can be translated upon request',
+        question: 'What is a Feasibility Study and in what languages will it be available?',
+        answer: 'A Feasibility Study is an advanced version of a Business Plan and to begin with we will be posting papers only in English. They can however be translated upon request.',
       },
       {
-        question: 'Why ICO is sheduled in 4 rounds?',
-        answer: 'In order to provide full transparency for investors regarding the funds\' usage and risk mitigation. Each cent will be justified with video content through our official media.',
+        question: 'Why is the ICO scheduled in 4 rounds?',
+        answer: 'In order to provide full transparency for investors regarding the usage of funds to mitigate risk. Each cent will be accounted for and this information will be published in video and written form via our official media channels.',
       },
       {
-        question: 'How long will the plant construction take after the fundraising? It is desirable to have a time range with justification of the terms.',
-        answer: 'From 6 to 8 months after completion of fundraising. Detailed description you can find in Feasibility Study (Business Plan). Also please refer to our road map and project plan!',
+        question: 'How long will plant construction take after fundraising has been complexted?',
+        answer: 'From 6 to 8 months after completion of fundraising. A detailed description of this can be found in our Feasibility Study(Advanced Business Plan). You may also refer to our Road Map and Project Plan!',
       },
       {
-        question: 'How will the profit from revenues affect the price of the token?',
-        answer: 'We have limited amount of tokens and profit will grow unlimited. So tokens will grow as profit of company grows. We are tokenizing profit from gold production.',
+        question: 'How will the profit from revenues affect the price of the GEA token?',
+        answer: 'We have a limited amount of GEA Tokens and the profit will not be capped. Therefore the value of GEA Tokens will grow as the profit of the company grows. We are essentially tokenizing the profit from the production of gold.',
       },
       {
-        question: 'Infrastructure - what you need to fulfill to start production?',
-        answer: 'Please, refer to our road map and project plan for details. They are located in the middle of our main page and include roads, camp facilities for workers and staff, security system, water tanks, electricity generator and installations, parking.',
+        question: 'Infrastructure - What do you need to to start production?',
+        answer: 'Please refer to our Road Map and Project Plan for details. These are located in the middle of the main page of the Goldea website and include such items as roads, camp facilities for workers and staff, security system, water tanks, electricity generators and parking provision.',
       },
     ],
     documents: [

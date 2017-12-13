@@ -1,11 +1,11 @@
 {
-  "title": "Step 1: Your Ethereum Wallet",
-  "annotation": "In order to recieve {{ tokenName }} tokens you need to give your Ethereum Wallet Adress.",
+  "title": "Step 1: Create your Ethereum Wallet",
+  "annotation": "In order to receive {{ tokenName }} Tokens you need to provide your Ethereum Wallet Address.",
   "noticeTitle": "Important",
-  "noticeText": "We are not able to send tokens to Exchange Ethereum wallets.",
-  "noticeGasLimit": "Gas Limit: 150000 Gwei (more than)",
-  "noticeGasPrice": "Gas Price: 50 Gwei (more than)",
-  "ethereumAddress": "Ethereum address",
+  "noticeText": "We are not able to send tokens to 'Exchange Ethereum Wallets'",
+  "noticeGasLimit": "Gas Limit: 150,000 GWEI (or more)",
+  "noticeGasPrice": "Gas Price: 50 GWEI (or more)",
+  "ethereumAddress": "Ethereum Address",
   "save": "Save",
   "saved": "Saved"
 }

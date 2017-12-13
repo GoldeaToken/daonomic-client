@@ -1,10 +1,10 @@
 {
-  "title": "Step 2: Select your payment method",
+  "title": "Step 2: Select Your Payment Method",
   "wantToPayWith": "I want to pay with",
-  "sendFundsTo": "Send funds to this {{ paymentMethod }} address:",
+  "sendFundsTo": "Send Funds to this {{ paymentMethod }} Address:",
   "statusesTitle": "Payments statuses",
-  "statusFinished": "finished",
-  "statusPending": "pending",
+  "statusFinished": "Completed",
+  "statusPending": "Pending",
   "instructionTitle": "Payment Instruction",
-  "instructionText": "<strong>SET GAS PRICE: 50 Gwei (more than)</strong><br/><strong>GAS LIMIT: 150000 Gwei (more than)</strong><br/>After your payment will be completed you will get tokens to the selected ethereum address:"
+  "instructionText": "<strong>Gas Limit: 150,000 GWEI (or more)</strong><br/><strong>Gas Price: 50 GWEI (or more)</strong><br/>After your payment is complete you will receive tokens from the Ethereum Address below:"
 }
