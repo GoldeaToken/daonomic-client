@@ -16,3 +16,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
+div[class^="page-root-"] {
+    background: #ffda94;
+    background: -webkit-linear-gradient(#fff1d7,#ffda94);
+    background: -o-linear-gradient(#fff1d7,#ffda94);
+    background: -moz-linear-gradient(#fff1d7,#ffda94);
+    background: linear-gradient(#fff1d7,#ffda94);
+}

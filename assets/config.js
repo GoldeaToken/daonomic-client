@@ -100,7 +100,7 @@ window.config = Object.assign(window.config || {}, {
           date: '08.12.2017 – 14.12.2017',
           text: 'Second week sale',
           percent: '10%',
-          isActive: true,
+          isActive: false,
         },
         {
           date: '15.12.2017 – 21.12.2017',
@@ -112,7 +112,7 @@ window.config = Object.assign(window.config || {}, {
           date: '22.12.2017 – 31.12.2017',
           text: 'Fourth week sale',
           percent: '0%',
-          isActive: false,
+          isActive: true,
         },
       ],
     },

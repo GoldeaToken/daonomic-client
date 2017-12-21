@@ -63,6 +63,8 @@ export default class SignIn extends Component {
       <Layout>
         <Panel paddingSize="large">
           <form onSubmit={onSubmit}>
+            <img className={commonStyles.logo} src="https://goldea.io/themes/goldea/assets/img/goldea-logo-96m.png" />
+            <img className={commonStyles.brand} src="https://goldea.io/themes/goldea/assets/img/goldea-logo.svg" />
             <Heading size={Heading.sizes.large} tagName="h1" className={commonStyles.title}>
               <Translation id="auth:signInHeading" />
             </Heading>

@@ -60,6 +60,7 @@ export default class TokenPrice extends Component {
             of {formatNumber(tokensCount.total)}
           </span>
         </p>
+        <p> $1,500,000 </p>
       </div>
     );
   };
@@ -85,7 +86,7 @@ export default class TokenPrice extends Component {
 
         <h3 className={cn(styles.title, styles.title_bonus)}>
           Current Bonus<br />
-          10%
+          5%
         </h3>
 
         <Button onClick={this.handleClickSwitch} className={styles.fullwidth}>

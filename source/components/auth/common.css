@@ -1,9 +1,23 @@
 .title {
   padding-bottom: 30px;
+  text-align: right;
+  line-height: 30px;
 
   @media (--desktop) {
     padding-bottom: 40px;
   }
+}
+
+.logo {
+   float: left;
+   width: 30px;
+}
+
+.brand {
+   float: left;
+   width: 18%;
+   height: 33px;
+   margin-left: 10px;
 }
 
 .row {
