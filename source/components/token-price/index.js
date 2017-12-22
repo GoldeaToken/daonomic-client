@@ -85,8 +85,7 @@ export default class TokenPrice extends Component {
         ))}
 
         <h3 className={cn(styles.title, styles.title_bonus)}>
-          Current Bonus<br />
-          5%
+          Current price $12 per token
         </h3>
 
         <Button onClick={this.handleClickSwitch} className={styles.fullwidth}>

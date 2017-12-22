@@ -4,6 +4,7 @@ import cn from 'classnames';
 import Page from 'daonomic-ui/source/page';
 import Header from '~/components/header';
 import Banner from '~/components/banner';
+import Popup from '~/components/popup';
 import Footer from '~/components/footer';
 import styles from './app-layout.css';
 
@@ -23,6 +24,10 @@ export default class AppLayout extends PureComponent {
       <Page>
         <div className={cn(styles.container, styles.banner)}>
           <Banner />
+        </div>
+
+        <div className={cn(styles.container, styles.popup)}>
+          <Popup />
         </div>
 
         <Page.Header>
