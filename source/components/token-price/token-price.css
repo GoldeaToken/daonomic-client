@@ -28,3 +28,30 @@
 .fullwidth {
   width: 100%;
 }
+
+.inputholder {
+    border: 1px solid #6d5234;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #6d5234;
+    margin-bottom: 0.5em;
+}
+
+.input {
+    padding: 5px;
+    font-size: 20px;
+    width: 180px;
+    text-align: right;
+    border: 0;
+    border-right: 1px solid #6d5234;
+}
+
+.select {
+    padding: 2px;
+    font-size: 20px;
+    border: 0;
+    background: 0;
+    width: 67px;
+    color: #ffffff;
+    background: #6d5234;
+}
